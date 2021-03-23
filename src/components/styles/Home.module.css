@@ -1,0 +1,65 @@
+.home {
+    flex: 1;
+    padding-top: 30px;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    background-color: var(--color-primary);
+    height: 60vh;
+}
+
+
+.imageContainer {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--color-primary);
+    background-image: radial-gradient(circle, #e2d0d0 0%, transparent 50%, var(--color-primary));
+}
+
+
+.sideCir {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.sideCir>span {
+    width: 5px;
+    height: 5px;
+    border: 1px solid var(--color-secondary);
+    border-radius: 50px;
+}
+
+.sideCir>span:nth-child(1) {
+    background-color: var(--color-secondary);
+}
+
+.image {
+    width: 50%;
+    height: 120%;
+    object-fit: contain;
+}
+
+.arrow {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.arrow:active {
+    transform: translateY(1px);
+}
+
+.cardContainer {
+    flex: .7;
+    background-color: var(--color-card);
+    bottom: 0;
+    right: 0;
+    height: 80vh;
+}

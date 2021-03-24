@@ -9,7 +9,7 @@
 .header {
     display: flex;
     align-items: center;
-    /* padding: 15pt; */
+    padding: 15pt;
     background-color: var(--color-card-header);
     height: 50pt;
 }
@@ -26,14 +26,16 @@
     margin-top: 30pt;
     display: flex;
     flex-direction: column;
-    gap: 20pt;
-    /* margin-bottom: 45pt; */
+    /* gap: 15pt; */
+    justify-content: space-around;
+    margin-bottom: 65px;
 }
 
 .titleContainer {
     display: flex;
     flex-direction: column;
     gap: 10pt;
+    margin-bottom: 25px;
 }
 
 .titleContainer>p {
@@ -49,8 +51,9 @@
 }
 
 .description {
-    padding-right: 100pt;
+    padding-right: 80px;
     letter-spacing: .3px;
+    margin-bottom: 25px;
 }
 
 .description>p {
@@ -62,7 +65,7 @@
     flex-direction: row;
     justify-content: space-between;
     padding-right: 10pt;
-
+    margin-bottom: 25px;
 }
 
 
@@ -135,10 +138,11 @@
 .cartContainer {
     display: flex;
     flex-direction: row;
-    padding-top: 16pt;
+    margin-top: 20pt;
     justify-content: space-between;
     align-items: center;
 }
+
 
 .cartDetails {
     margin-right: 10pt;

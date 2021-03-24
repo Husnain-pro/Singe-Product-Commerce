@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'arial', sans-serif;
+  font-family: 'Inter', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-smooth: always;
@@ -13,5 +14,5 @@
   --color-secondary: #8B2E38;
   --color-card: #FFFFFF;
   --color-card-header: #FAE3BA;
-  --color-text: #55555B;
+  --color-text: rgb(53,53,60);
 }

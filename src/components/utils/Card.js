@@ -14,8 +14,8 @@ const Card = () => {
 					<p>CLASSIC | 4mm</p>
 					<div className={styles.title}>
 						<h2>Classic Roselyn</h2>
-						<p>
-							<span style={{ fontSize: '10px' }}>$</span>
+						<p style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+							<p style={{ fontSize: '11pt', paddingRight: '1pt', marginBottom: '1pt' }}>$</p>
 							159
 						</p>
 					</div>

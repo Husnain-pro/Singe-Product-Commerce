@@ -25,9 +25,7 @@ const Home = () => {
 					</p>
 				</div>
 				<div className={styles.cardContainer}>
-					<div className={styles.card}>
-						<Card />
-					</div>
+					<Card />
 				</div>
 			</div>
 		</div>

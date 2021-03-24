@@ -2,39 +2,42 @@
     display: flex;
     flex-direction: column;
     flex: 1;
+    height: auto;
+    background-color: var(--color-card);
 }
 
 .header {
     display: flex;
     align-items: center;
-    padding: 20px;
+    /* padding: 15pt; */
     background-color: var(--color-card-header);
-    height: 70px;
+    height: 50pt;
 }
 
 
 .header>p {
-    font-weight: lighter;
-    padding-left: 30px;
+    font-weight: 300;
+    margin-left: 25pt;
 }
 
 .cardBody {
-    padding-left: 55px;
-    padding-right: 55px;
-    padding-top: 50px;
+    margin-left: 40pt;
+    margin-right: 20pt;
+    margin-top: 30pt;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 20pt;
+    /* margin-bottom: 45pt; */
 }
 
 .titleContainer {
     display: flex;
     flex-direction: column;
-    gap: 14px;
+    gap: 10pt;
 }
 
 .titleContainer>p {
-    font-weight: lighter;
+    font-weight: 300;
     color: #C2BCBE;
 }
 
@@ -46,8 +49,8 @@
 }
 
 .description {
-    padding-right: 150px;
-    letter-spacing: 1px;
+    padding-right: 100pt;
+    letter-spacing: .3px;
 }
 
 .description>p {
@@ -58,7 +61,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-right: 70px;
+    padding-right: 10pt;
 
 }
 
@@ -71,16 +74,16 @@
 .btn {
     display: flex;
     flex-direction: row;
-    gap: 15px;
+    gap: 12pt;
 }
 
 .btn>p {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 13px;
-    width: 30px;
-    height: 30px;
+    font-size: 9pt;
+    width: 23pt;
+    height: 23pt;
     border-radius: 50px;
     background-color: var(--color-primary);
     cursor: pointer;
@@ -95,7 +98,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 20pt;
 }
 
 .quantity>p {
@@ -107,13 +110,12 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 13pt;
 }
 
 .quantityBtn>p {
     text-align: center;
-    font-size: 10px;
-    margin-top: 5px;
+    font-size: 8pt;
     user-select: none;
     color: var(--color-text);
 }
@@ -133,13 +135,13 @@
 .cartContainer {
     display: flex;
     flex-direction: row;
-    padding-top: 20px;
+    padding-top: 16pt;
     justify-content: space-between;
     align-items: center;
 }
 
 .cartDetails {
-    padding-right: 140px;
+    margin-right: 10pt;
 }
 
 .cartDetails>p {
@@ -159,9 +161,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 180px;
-    height: 60px;
+    width: 150pt;
+    height: 45pt;
     background-color: var(--color-secondary);
-    font-size: 12px;
+    font-size: 9pt;
     color: var(--color-primary);
 }

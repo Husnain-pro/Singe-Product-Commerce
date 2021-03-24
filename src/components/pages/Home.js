@@ -6,7 +6,7 @@ import Card from '../utils/Card';
 const Home = () => {
 	return (
 		<div className={styles.home}>
-			<div className={styles.container}>
+			<div className={{ ...styles.container, ...styles.container_res }}>
 				<div className={styles.imageContainer}>
 					<div className={styles.sideCir}>
 						<span></span>
